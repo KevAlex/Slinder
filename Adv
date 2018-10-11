@@ -1,6 +1,6 @@
 def cargar_archivo(lab):
     return [x.split(" ") for x in [y.strip("\n") for y in open(lab).readlines()]][:-2]
-
+##    return [x.split(" ") for x in [y.strip("\n") for y in open(lab).readlines()]][1][0].split(",")
 def cargar_inicio(lab):
     return [x.split(" ") for x in [y.strip("\n") for y in open(lab).readlines()]][-2][0].split(",")
 
@@ -9,30 +9,23 @@ def cargar_fin(lab):
 
 
 def resolver(lab):
-    fin = ["2", "2"]
-    print "laberinto : "
-    for x in cargar_archivo(lab):
-        for y in x:
-            print [a[0] for a in list(y)[int(cargar_inicio(lab)[0])]]     //resumen
-##            print y
-##            for a in list(y)[int(cargar_inicio(lab)[0])]:
-##                print a
-##            for w in list(y):
-##                print w
-               
-##                    if cargar_fin(lab)==fin:
-##                        print "si"
+##    print "laberinto : ", cargar_archivo(lab)
+    print cargar_archivo(lab)[int(cargar_inicio(lab)[0])][0].split(","), 'fila'
+    
+    print cargar_archivo(lab)[int(cargar_inicio(lab)[0])+1][0].split(","), 'fila'
+    
+    for x in cargar_archivo(lab)[int(cargar_inicio(lab)[0])][0].split(","):
+        print list(x)[int(cargar_inicio(lab)[1])], 'col'
+            
 
-                    
-                
-                   
                
-##    print "inicio : "
+    print "inicio : "
     print cargar_inicio(lab)
      
 ##    print "fin : "
 ##    print cargar_fin(lab)
     
-
-
 resolver("labe.txt")
+
+def arriba():
+    
