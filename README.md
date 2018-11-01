@@ -9,7 +9,7 @@
 
 El proposito de este proyecto es recibir un laberinto(los 0 son camino disponible y los 1 son paredes) y coordenadas de inicio(Punto donde iniciara a recorrerse el laberinto) y una coordenada de finalizar(Salida del laberinto).
 
-#### Clases:
+#### Funciones:
 
  * cargar_archivo: Esta funcion recibira un archivo de texto y retornara primero todo el contenido menos las 2 ultimas lineas,luego la penultima linea y posteriormente la ultima linea del archivo de texto.
  
