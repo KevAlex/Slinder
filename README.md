@@ -7,8 +7,8 @@
   
 #### Introduccion:
 
-El proposito de este proyecto es recibir un laberinto(los 0 son camino disponible y los 1 son paredes) y coordenadas de inicio(Punto donde iniciara a recorrerse el laberinto) y una coordenada de finalizar(Salida del laberinto).
-Asimismo tener en cuenta que el nombre del archivo txt debe ser de: labe.txt y el archivo python se encunetra en la rama master con el nombre de: Laberinto.py
+El proposito de este proyecto es recibir un laberinto en formato txt donde los 0 representan camino disponible y los 1 paredes posteriormente se especificaran las coordenadas de inicio (Punto donde iniciara a recorrerse el laberinto) y las coordenadas de finalización (Salida del laberinto).
+Asimismo tener en cuenta que el nombre del archivo txt debe ser de: labe.txt y el archivo python que ejecuta la solucion del laberinto se encuentra en la rama master con el nombre de: Laberinto.py
 
 #### Funciones:
 
