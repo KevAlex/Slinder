@@ -1,13 +1,14 @@
 # Solucion Laberinto
 
 ## Integrantes:
-  * Brayan Castañeda
-  * Kevin Alexander Diaz
+  * Brayan Castañeda           2020-MamertoCatastal
+  * Kevin Alexander Diaz       20162020105
   * Sebastian Duque Gallego    20162020039
   
 #### Introduccion:
 
 El proposito de este proyecto es recibir un laberinto(los 0 son camino disponible y los 1 son paredes) y coordenadas de inicio(Punto donde iniciara a recorrerse el laberinto) y una coordenada de finalizar(Salida del laberinto).
+Asimismo tener en cuenta que el nombre del archivo txt debe ser de: labe.txt y el archivo python se encunetra en la rama master con el nombre de: Laberinto.py
 
 #### Funciones:
 
