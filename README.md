@@ -17,15 +17,15 @@ El proposito de este proyecto es recibir un laberinto(los 0 son camino disponibl
  
  * cargar_fin: Esta funcion recibira un archivo de texto y retornara la ultima linea de dicho archivo.
  
- * arriba: Esta funcion recibira una archivo de texto y dos numeros el primero sera la fila y el segundo la columna,Compara la posicion en la que se encuentra y si es un 0 pasara a comprobar la posicion actual con la posicion de cargar_fin y si es la misma se imprimira que el laberinto tiene solucion, si no llamara a la funcion arriba quitandole uno a la fila y luego llamar a las funciones derecha e izquierDa.
+ * arriba: Esta funcion recibira una archivo de texto y dos numeros el primero sera la fila y el segundo la columna, compara la posicion en la que se encuentra y si es un 0 pasara a comprobar la posicion actual con la posicion de cargar_fin y si es la misma se imprimira que el laberinto tiene solucion, si no llamara a la funcion arriba quitandole uno a la fila y luego llamar a las funciones der e izq.
  
- * abajo: Esta funcion recibira una archivo de texto y dos numeros el primero sera la fila y el segundo la columna,Compara la posicion en la que se encuentra y si es un 0 pasara a comprobar la posicion actual con la posicion de cargar_fin y si es la misma se imprimira que el laberinto tiene solucion, si no llamara a la funcion abajo sumandole uno a la fila y luego llamar a las funciones derecha e izquierda.
+ * abajo: Esta funcion recibira una archivo de texto y dos numeros el primero sera la fila y el segundo la columna,Compara la posicion en la que se encuentra y si es un 0 pasara a comprobar la posicion actual con la posicion de cargar_fin y si es la misma se imprimira que el laberinto tiene solucion, si no llamara a la funcion abajo sumandole uno a la fila y luego llamar a las funciones der e izq.
  
  * der: Esta funcion recibira una archivo de texto y dos numeros el primero sera la fila y el segundo la columna,Compara la posicion en la que se encuentra y si es un 0 pasara a comprobar la posicion actual con la posicion de cargar_fin y si es la misma se imprimira que el laberinto tiene solucion, si no llamara a la funcion dersumandole uno a la columna y luego llamar a las funciones arriba y abajo.+
  
   * izq: Esta funcion recibira una archivo de texto y dos numeros el primero sera la fila y el segundo la columna,Compara la posicion en la que se encuentra y si es un 0 pasara a comprobar la posicion actual con la posicion de cargar_fin y si es la misma se imprimira que el laberinto tiene solucion, si no llamara a la funcion izq restandole uno a la columna y luego llamar a las funciones arriba y abajo.
   
-  * resolver: Esta funcion es la encarga de imprimir todos los pasos que se haran para llegar a la solucion del laberinto, en la cual llama a los 4 metodos arriba, abajo,der y izq
+  * resolver: Esta funcion es la encarga de imprimir todos los pasos que se haran para llegar a la solucion del laberinto, en la cual llama a los 4 metodos arriba, abajo, der y izq
   
   
  
