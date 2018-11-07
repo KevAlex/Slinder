@@ -1,7 +1,7 @@
 # Solucion Laberinto
 
 ## Integrantes:
-  * Brayan Castañeda           2020-MamertoCatastal
+  * Brayan Castañeda           20162020110
   * Kevin Alexander Diaz       20162020105
   * Sebastian Duque Gallego    20162020039
   
